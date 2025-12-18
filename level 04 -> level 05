@@ -1,3 +1,12 @@
+level 4 to level 5:
+I used the file command to identify the ASCII text file among multiple data files.
+After handling the filename starting with a dash using ./, I read the file to retrieve the bandit5
+password and authenticated to the next level via SSH.
+
+password for bandit 5:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+hands-on practice:
+
 bandit4@bandit:~$ cd inhere
 bandit4@bandit:~/inhere$ ls
 -file00  -file02  -file04  -file06  -file08
