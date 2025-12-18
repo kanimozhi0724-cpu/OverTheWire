@@ -1,3 +1,12 @@
+level 9 to level 10:
+I used strings to pull printable characters from a binary file, filtered results with grep "=",
+and isolated the password before authenticating to the next Bandit level via SSH.
+
+
+password for bandit 10: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+hands-on practice:
+
 bandit9@bandit:~$ strings data.txt | grep "=" | sort | uniq
 5========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 c\5D=
