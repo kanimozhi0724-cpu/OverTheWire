@@ -1,3 +1,11 @@
+level 1 to level 2:
+> I read the file named `-` to get the password, logged out of bandit1, 
+and successfully logged in as bandit2 using SSH.
+
+password for bandit 2:263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+hands-on practice:
+
 bandit1@bandit:~$ ls
 -
 bandit1@bandit:~$ cat ./-
