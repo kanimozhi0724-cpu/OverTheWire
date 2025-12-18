@@ -1,3 +1,11 @@
+level 12 to level 13:
+I converted the hex dump back to binary using xxd -r and identified multiple layers of compression
+(gzip, bzip2, tar). By sequentially decompressing each layer, I revealed the final text containing 
+the bandit13 password and used it to authenticate.
+
+password for bandit13:FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+
 bandit12@bandit:/tmp$ mkdir band
 bandit12@bandit:/tmp$ cd band
 bandit12@bandit:/tmp/band$ cp ~/data.txt .
