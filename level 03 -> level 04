@@ -1,3 +1,11 @@
+level 3 to level 4:
+Using ls -a, I identified a hidden file inside the inhere directory. I displayed its contents
+to obtain the bandit4 password and then authenticated to the next level via SSH.
+
+password for bandit 4:2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+hands-on practice:
+
 bandit3@bandit:~$ cd inhere
 bandit3@bandit:~/inhere$ ls
 bandit3@bandit:~/inhere$ ls -a
