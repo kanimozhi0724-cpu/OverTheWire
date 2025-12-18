@@ -1,3 +1,11 @@
+level 5 to level 6:
+I used the find command to locate a non-executable file of exactly 1033 bytes. 
+After identifying it as ASCII text, I displayed its contents to retrieve the bandit6 password and 
+authenticated to the next level via SSH.
+
+password for bandit 6:HWasnPhtq9AVKe0dmk45nxy20cvUa6EG  
+
+
 bandit5@bandit:~$ cd inhere
 bandit5@bandit:~/inhere$ . -type f -size 1033c ! -executable
 -bash: .: -t: invalid option
