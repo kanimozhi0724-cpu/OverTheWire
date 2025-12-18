@@ -1,3 +1,12 @@
+level 8 to level 9:
+
+I piped sort into uniq -u to isolate the unique entry in data.txt. The resulting string was
+used as the password to authenticate to the next Bandit level via SSH.
+
+password for bandit 9:4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+hands-on practice:
+
 bandit8@bandit:~$ cd ~
 bandit8@bandit:~$ ls
 data.txt
