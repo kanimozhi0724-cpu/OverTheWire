@@ -1,3 +1,12 @@
+level 6 to level 7:
+I used find / with user, group, and size filters while suppressing permission errors.
+After locating the ASCII password file, I displayed its contents and authenticated to the next
+Bandit level via SSH.
+
+password for bandit 7:morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+hands-on practice:
+
 bandit6@bandit:~$ cd /
 bandit6@bandit:/$ find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
 /var/lib/dpkg/info/bandit7.password
