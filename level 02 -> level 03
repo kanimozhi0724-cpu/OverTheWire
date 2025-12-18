@@ -1,3 +1,13 @@
+level 2 to level 3:
+
+The filename started with dashes and contained spaces, so I used a relative path (./) to 
+prevent cat from treating it as an option. The file revealed the bandit3 password,
+which I used to log in via SSH.
+
+password for bandit 3: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+hands-on practice:
+
 bandit2@bandit:~$ ls
 --spaces in this filename--
 bandit2@bandit:~$ cat "--spaces in this filename--"
