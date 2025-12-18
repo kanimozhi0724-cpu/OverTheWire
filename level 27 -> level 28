@@ -1,0 +1,60 @@
+kanimozhi_s@LAPTOP-QB661LHS:~$ git clone ssh://bandit28-git@bandit.labs.overthewire.org:2220/home/bandit28-git/repo
+Cloning into 'repo'...
+                         _                     _ _ _
+                        | |__   __ _ _ __   __| (_) |_
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+
+
+                      This is an OverTheWire game server.
+            More information on http://www.overthewire.org/wargames
+
+backend: gibson-0
+bandit28-git@bandit.labs.overthewire.org's password:
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (2/2), done.
+kanimozhi_s@LAPTOP-QB661LHS:~$ cd repo
+kanimozhi_s@LAPTOP-QB661LHS:~/repo$ ls
+README.md
+kanimozhi_s@LAPTOP-QB661LHS:~/repo$ cat README.md
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
+- password: xxxxxxxxxx
+
+kanimozhi_s@LAPTOP-QB661LHS:~/repo$ git log
+commit b0354c7be30f500854c5fc971c57e9cbe632fef6 (HEAD -> master, origin/master, origin/HEAD)
+Author: Morla Porla <morla@overthewire.org>
+Date:   Tue Oct 14 09:26:19 2025 +0000
+
+    fix info leak
+
+commit d0cf2ab7dd7ebc6075b59102a980155268f0fe8f
+Author: Morla Porla <morla@overthewire.org>
+Date:   Tue Oct 14 09:26:19 2025 +0000
+
+    add missing data
+
+commit bd6bc3a57f81518bb2ce63f5816607a754ba730d
+Author: Ben Dover <noone@overthewire.org>
+Date:   Tue Oct 14 09:26:18 2025 +0000
+
+    initial commit of README.md
+kanimozhi_s@LAPTOP-QB661LHS:~/repo$ git checkout d0cf2ab7dd7ebc6075b59102a980155268f0fe8f
+Previous HEAD position was bd6bc3a initial commit of README.md
+HEAD is now at d0cf2ab add missing data
+kanimozhi_s@LAPTOP-QB661LHS:~/repo$ cat README.md
+# Bandit Notes
+Some notes for level29 of bandit.
+
+## credentials
+
+- username: bandit29
