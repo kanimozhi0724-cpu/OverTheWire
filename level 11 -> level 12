@@ -1,3 +1,11 @@
+level 11 to level 12:
+I applied a ROT13 transformation with the tr command to decrypt the text in data.txt,
+extracted the password, and authenticated to the next Bandit level via SSH.
+
+password for bandit 12:7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+hands-on practice:
+
 bandit11@bandit:~$ cd ~
 bandit11@bandit:~$ ls
 data.txt
