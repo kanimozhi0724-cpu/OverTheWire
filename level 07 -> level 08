@@ -1,3 +1,12 @@
+level 7 to level 8:
+I used grep to locate the line containing the keyword “millionth” in data.txt. 
+The extracted value was the password, which I then used to authenticate to the next Bandit level
+via SSH.
+
+password for bandit 8:dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+hands-on practice:
+
 bandit7@bandit:~$ cd ~
 bandit7@bandit:~$ ls
 data.txt
